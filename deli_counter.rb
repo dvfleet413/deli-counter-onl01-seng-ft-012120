@@ -9,7 +9,9 @@ def line(array)
   end
 end
 
-def take_a_number
+def take_a_number(array, string)
+  array << string
+  puts "#{string} is number #{array.size + 1}."
 end
 
 def now_serving
